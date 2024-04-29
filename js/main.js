@@ -2,6 +2,35 @@
 Dark Mode for Seasons Home Page
 */
 
+let date = new Date().getDay();
+
+//let date = 2;
+
+console.log(date);
+
+
+if(date == 0){
+
+document.body.style.background = 'purple';
+
+} else if(date == 1){
+
+document.body.style.background = 'orange';
+
+} else if(date == 2){
+
+document.body.style.background = 'blue';
+
+
+}else{
+
+  document.body.style.background = 'white';
+
+}
+
+
+
+
 let hour = new Date().getHours(); // get current hour
 // console.log(hour); // display current hour in the web console
 
