@@ -2,9 +2,12 @@
 Dark Mode for Seasons Home Page
 */
 
-let date = new Date().getDay();
 
-//let date = 2;
+
+
+//let date = new Date().getDay();
+
+let date = 3;
 
 console.log(date);
 
@@ -19,10 +22,17 @@ document.body.style.background = 'orange';
 
 } else if(date == 2){
 
-document.body.style.background = 'blue';
+document.body.style.background = 'lightblue';
 
 
-}else{
+}
+else if(date == 3){
+
+document.body.style.background = 'yellow';
+
+
+}
+else{
 
   document.body.style.background = 'white';
 
