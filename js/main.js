@@ -5,9 +5,9 @@ Dark Mode for Seasons Home Page
 
 
 
-//let date = new Date().getDay();
+let date = new Date().getDay();
 
-let date = 3;
+//let date = 3;
 
 console.log(date);
 
